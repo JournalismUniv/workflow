@@ -15,4 +15,4 @@ jobs:
           DISCORD_AVATAR: ${{ secrets.DISCORD_AVATAR }}
         uses: Ilshidur/action-discord@master
         with:
-          args: 'The answer of name is: `${{on.youtube.outputs.author}} - YouTube`\n**${{on.youtube.outputs.title}}**\n${{on.youtube.outputs.link}}'
+          args: "`정보공개센터 - YouTube`'\n'**${{on.youtube.outputs.title}}**'\n'${{on.youtube.outputs.link}}"
